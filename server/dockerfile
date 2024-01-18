@@ -1,0 +1,7 @@
+FROM python:3.12.1-slim-bookworm
+
+RUN pip3 install flask psycopg2-binary
+
+ADD . .
+ENTRYPOINT [ "python3" ]
+CMD ["/server.py"]
