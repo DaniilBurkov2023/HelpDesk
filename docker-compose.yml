@@ -21,6 +21,4 @@ services:
       POSTGRES_PASSWORD: test
       POSTGRES_DB: server
       POSTGRES_USER: server
-    ports:
-      - 5432:5432
 
